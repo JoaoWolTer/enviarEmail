@@ -1,11 +1,6 @@
 package enviando_email.enviando_email;
 
-import java.net.Authenticator;
-import java.util.Properties;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
 /**
  * Unit test for simple App.
@@ -28,12 +23,10 @@ public class AppTest {
 			properties.put("mail.smtp.socketFactory.port", "465");
 			properties.put("mail.smtp.socketFactory.clas", "javax.net.ssl.SSLSocketFactory");
 			
-			Session session - Session.getInstance(properties,new Authenticator() {
-				@Override
-				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication(userName, senha);
-				}
-			});
+		Sessi
+			
+			
+			
 			
 			System.out.println(senha);
 			
