@@ -17,7 +17,7 @@ import javax.mail.internet.MimeMessage;
 public class AppTest {
 
 	private String userName = "joaowoltermail@gmail.com";
-	private String senha = "Mayalove10#";
+	private String senha = "snjkfvjkbhgfcjmq";
 
 	@org.junit.Test
 	public void testeEmail() {
